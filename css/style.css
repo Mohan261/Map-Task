@@ -5,17 +5,18 @@
 	font-family: 'Roboto', sans-serif;
 }
 .main_container{
-	width:1110px;
-	height:650px;
+	width:1100px;
+	height:740px;
 	background-image:linear-gradient(rgb(0 0 0 / 10%),rgb(0 0 0 / 10%)),url(../img/bg-img.jpg);
 	background-size: contain;
     background-repeat: no-repeat;
 	position:relative;
 	margin:0 auto;
+	background-position-y:-152px;
 }
 .container{
-	padding-left:15px;
-	padding-right:15px;
+	padding-left:25px;
+	padding-right:25px;
 }
 .flex_container{
 	display:flex;
@@ -105,7 +106,7 @@
 	
 }
 iframe{
-	width:450px;
+	width:400px;
 	height:350px;
 }
 .right_content{
@@ -180,6 +181,6 @@ form{
 	background-color:#00a6ff;
 	margin-top:25px;
 	position:absolute;
-	bottom:-90px;
+	bottom:-80px;
 	left:150px;
 }
